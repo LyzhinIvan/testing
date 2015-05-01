@@ -12,9 +12,9 @@ namespace Kontur.Courses.Testing
 	{
 		static void Main()
 		{
-			if (!CheckTests()) return;
-			var implementations = GetImplementations();
-			CheckIncorrectImplementationsFail(implementations);
+            if (!CheckTests()) return;
+            var implementations = GetImplementations();
+            CheckIncorrectImplementationsFail(implementations);
 		}
 
 		private static void CheckIncorrectImplementationsFail(IEnumerable<Type> implementations)
